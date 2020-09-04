@@ -37,7 +37,7 @@
                 $count++;
             }
         }
-        // Cierra el archivo Excel
+        // Cierra el lector Excel
         $reader->close();
         if(!$incorrect){
             $sql = substr($sql, 0, -1);
